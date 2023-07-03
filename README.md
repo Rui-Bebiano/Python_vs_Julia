@@ -28,7 +28,7 @@ Run the Julia code: julia fibonacci_julia.jl
 
 
 ## Results
-The detailed results and analysis are provided in the Comparison.xlsx file. In summary, the results indicated that Julia performed the Fibonacci iterative calculation significantly faster than Python on average. However, Julia's times exhibit about twice the dispersion and 10 times the skew of those of Python.
+The detailed results and analysis are provided in the Comparison.xlsx file. In summary, the results indicated that Julia performed the Fibonacci iterative calculation significantly faster than Python on average - in this case, about 7300 times faster. Nevertheless, Julia's recorded times exhibited about twice the dispersion and 10 times the (positive) skew of those of Python.
 
 ## Contributions
 Your feedback is welcome! Feel free to open an issue.
