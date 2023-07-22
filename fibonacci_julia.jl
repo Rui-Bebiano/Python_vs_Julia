@@ -17,7 +17,7 @@ df_julia = DataFrame(Run = Int[], Time = Float64[])
 # Define the number of runs on each batch
 num_runs = 100
 
-# Warm up the JIT compiler
+# Warm up the JIT compiler - this step is specific of Julia REPL
 fibonacci(1_000_000)
 
 # Loop over the number of runs
